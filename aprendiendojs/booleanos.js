@@ -21,3 +21,20 @@ console.log(Boolean({}))
 console.log(Boolean(""))
 console.log(Boolean(" "))
 console.log(Boolean(NaN))
+
+//Diferencia entre undefined, null y NaN:
+
+//undefined: no se inicializo la variable y el valor esta ausente
+
+let indefinida;
+console.log(indefinida)
+
+//null es algo que no tiene valor pero puesto a proposito
+
+let nulo = null
+console.log(nulo)
+
+//NaN --> Not a number
+
+let noEsUnNumero = "hola" * 4
+console.log(noEsUnNumero)
