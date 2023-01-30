@@ -5,12 +5,16 @@ git status (ocpional)
 git add .
 git commit -m "el nombre que quiera para la version"
 git remote add origin https://github.com/tmoya99/aprendiendojs.git
-git branch -M main
-git push -u origin main
+git branch -M main <!--aclaro q esa es la rama principal, pero puedo hacer otras-->
+git push -u origin main (o la rama que quiera)
 
 <!-- y en teoria asi deberia funcionar-->
 
 <!--Ahora, para acutalizar es solamente asi:-->
 git add .
 git commit -m "el nombre que quiera para la version"
-git push -u origin main
+git push -u origin main (o la rama que quiera)
+
+<!--Tambien hay todo un tema en github que son las ramas, y para poner una rama en particular ponemos-->
+git checkout nombredelarama
+<!--y ahi ya estamos trabajando en esa rama (despues tenemos que guardar como arriba)-->
