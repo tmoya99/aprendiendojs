@@ -34,7 +34,7 @@ const tomi = { //cada una de las palabras en celeste se llaman ATRIBUTOS de un o
 }
 
 console.log(tomi);
-// Y podemos hacer que nos muestre solo un atributo de nuestro objeto: hay dos formas, con corchetes o con puntos (Esta es la que se usa)
+// Y podemos hacer que nos muestre solo un atributo de nuestro objeto: hay dos formas, con corchetes (LA UNICA Q ME DEJA HACER EL FOR IN) o con puntos (Esta es la que se usa)
 console.log(tomi["nombre"])
 console.log(tomi.edad)
 console.log(tomi.contacto.telefono)
