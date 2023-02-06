@@ -34,7 +34,8 @@ saludar("Tomás", 24)
 /**
  La diferencia es:
  las declaradas las puedo invocar incluso antes de declararlas, no hay drama
- las expresadas solo puedo invocarlas despues de declararlas
+ las expresadas solo puedo invocarlas despues de declararlas.
+ Tecnicamente, una funcion expresada es CUANDO A UNA VARIABLE LE ASIGNO EL VALOR DE UNA FUNCION ANONIMA
  */
 
  //Ejemplo de funcion EXPRESADA:
